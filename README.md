@@ -12,7 +12,7 @@ The provided code consists of three classes: Counter, Main, and MyThread. These 
 - It demonstrates joining threads using the join() method to wait for their completion.
 - It also showcases the usage of Thread.sleep() to pause the execution of the main thread.
 
-## MyThread Class:
+## MyThread Class
 - The MyThread class extends the Thread class and represents a custom thread with a message to print.
 - It contains a constructor to initialize the message and a boolean flag indicating whether the message should be printed immediately.
 - The run() method checks the flag, and if it's set to true, prints the message. Otherwise, it waits until the flag is set to true using wait().
